@@ -1,6 +1,8 @@
-## Welcome to My GitHub Page!
+### Welcome to my portoflio
 
-I will be using this page as
+I will be using this page to document my progress in machine learning and data science.
+
+Data science is generally focused on solving 1 of 3 different problems:
 
 **Supervised Learning:**
 -	Classification: Classifying labeled data
@@ -10,9 +12,15 @@ I will be using this page as
 -	Clustering: Finding patterns and groupings in unlabeled data
 
 
-### Markdown
+### Project 1 : [Titanic - Machine Learning from Disaster](https://github.com/rx229/Tony_Portfolio/tree/main/Titanic)
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+*"Use the Titanic passenger data (name, age, price of ticket, etc) to try to predict who will survive and who will die"* - [Kaggle](https://www.kaggle.com/c/titanic)
+
+My first project is a classification problem where I try to predict a binary outcome (whether a passenger on the titanic survives). The project was to build a predictive model that answers the question: “what sorts of people were more likely to survive?” using passenger data.
+
+This was accomplished using Python in a [Jupyter Notebook](https://github.com/rx229/Tony_Portfolio/blob/main/Titanic/Titanic.ipynb). 
+
+
 
 ```markdown
 Syntax highlighted code block
