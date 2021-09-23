@@ -1,8 +1,14 @@
-## Welcome to GitHub Pages
+## Welcome to My GitHub Page!
 
-You can use the [editor on GitHub](https://github.com/rx229/Tony_Portfolio/edit/main/docs/index.md) to maintain and preview the content for your website in Markdown files.
+I will be using this page as
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+**Supervised Learning:**
+-	Classification: Classifying labeled data
+-	Regression: Predicting trends using previous labeled data
+
+**Unsupervised Learning:**
+-	Clustering: Finding patterns and groupings in unlabeled data
+
 
 ### Markdown
 
