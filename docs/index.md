@@ -12,6 +12,8 @@ Data science is generally focused on solving 1 of 3 different problems:
 -	Clustering: Finding patterns and groupings in unlabeled data
 
 
+
+
 ### Project 1 : [Titanic - Machine Learning from Disaster](https://github.com/rx229/Tony_Portfolio/tree/main/Titanic)
 
 *"Use the Titanic passenger data (name, age, price of ticket, etc) to try to predict who will survive and who will die"* - [Kaggle](https://www.kaggle.com/c/titanic)
@@ -20,7 +22,30 @@ My first project is a classification problem where I try to predict a binary out
 
 This was accomplished using Python in a [Jupyter Notebook](https://github.com/rx229/Tony_Portfolio/blob/main/Titanic/Titanic.ipynb). 
 
+**Project Steps**
 
+1. Data Exploration
+
+I began with some light data exploration using basic commands (.describe(), .info(), value counts) and to understand the nature of the data.
+I seperated the data into categorical and numerical.
+Used histograms for categorical data, came out quite messy and skewed. Only able to normalise one feature (Fare) with a log function.
+
+![image](https://github.com/rx229/Tony_Portfolio/blob/main/Titanic/Images/skewed.png)
+
+
+2. Exploratory Data Analysis
+
+- Correlation between feautres
+- Feature engineering
+
+3. Data Preprocessing
+
+- Dropping Null values
+- Imputing data
+
+4. ML Modelling
+
+- Model Building
 
 ```markdown
 Syntax highlighted code block
