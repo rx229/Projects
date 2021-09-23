@@ -24,53 +24,35 @@ This was accomplished using Python in a [Jupyter Notebook](https://github.com/rx
 
 **Project Steps**
 
-1. Data Exploration
+1. **Data Exploration**
 
-I began with some light data exploration using basic commands (.describe(), .info(), value counts) and to understand the nature of the data.
+I began with some light data exploration using basic commands (.describe(), .info(), value counts) and to understand the nature of the data. There were quite a few null values in the data sets.
 I seperated the data into categorical and numerical.
 Used histograms for categorical data, came out quite messy and skewed. Only able to normalise one feature (Fare) with a log function.
 
+
 ![image](https://github.com/rx229/Tony_Portfolio/blob/main/Titanic/Images/skewed.png)
 
+![image](https://github.com/rx229/Tony_Portfolio/blob/main/Titanic/Images/normal.png)
 
-2. Exploratory Data Analysis
+Used a correlation matrix to observe correlations between features
 
-- Correlation between feautres
-- Feature engineering
+![image](https://github.com/rx229/Tony_Portfolio/blob/main/Titanic/Images/Correlation Matrix.png)
 
-3. Data Preprocessing
+2. **Exploratory Data Analysis**
 
-- Dropping Null values
-- Imputing data
+I broke down several categorical features that had too many variables (Name, Cabin Number and Ticket Number) and tried to extract some meaningful data from the strings. For example I created the Title feature by extracting the title from the Name feature and compared surival rates.
 
-4. ML Modelling
+![image](https://github.com/rx229/Tony_Portfolio/blob/main/Titanic/Images/Feature.png)
 
-- Model Building
+3. **Data Preprocessing**
 
-```markdown
-Syntax highlighted code block
+I had to drop two rows as it has null values in a catergorical feature (Embarked) and imputed missing nurmeric data (Age, Fare) by calculating the mean.
+I chose to encode data with OHE over pd.get_dummies as it gave differing number of features between test and training data. I didn't want to manually fix feature lengths. 
 
-# Header 1
-## Header 2
-### Header 3
+4. **ML Modelling**
 
-- Bulleted
-- List
+I used Random Forest Algorith to produce the final output.
 
-1. Numbered
-2. List
+![image](https://github.com/rx229/Tony_Portfolio/blob/main/Titanic/Images/Results.png)
 
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/rx229/Tony_Portfolio/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
