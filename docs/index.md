@@ -1,4 +1,4 @@
-### Welcome to my portoflio...
+### Welcome to my portoflio
 
 I will be using this page to document my progress in machine learning and data science.
 
@@ -31,19 +31,19 @@ I seperated the data into categorical and numerical.
 Used histograms for categorical data, came out quite messy and skewed. Only able to normalise one feature (Fare) with a log function.
 
 
-![image](/Titanic/Images/skewed.png)
+![image1](/Titanic/Images/skewed.png)
 
-![image](/Titanic/Images/normal.png)
+![image2](/Titanic/Images/normal.png)
 
 Used a correlation matrix to observe correlations between features
 
-![image](/Titanic/Images/Correlation%20Matrix.png)
+![image3](/Titanic/Images/Correlation%20Matrix.png)
 
 2. **Exploratory Data Analysis**
 
 I broke down several categorical features that had too many variables (Name, Cabin Number and Ticket Number) and tried to extract some meaningful data from the strings. For example I created the Title feature by extracting the title from the Name feature and compared surival rates.
 
-![image](/Titanic/Images/Feature.PNG)
+![image4](/Titanic/Images/Feature.PNG)
 
 3. **Data Preprocessing**
 
@@ -54,5 +54,5 @@ I chose to encode data with OHE over pd.get_dummies as it gave differing number 
 
 I used the Random Forest Algorithm to produce the final output. My prediction was 79.9% accurate.
 
-![image](/Titanic/Images/Results.PNG)
+![image5](/Titanic/Images/Results.PNG)
 
