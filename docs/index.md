@@ -22,9 +22,8 @@ My first project is a classification problem where I try to predict a binary out
 
 This was accomplished using Python in a [Jupyter Notebook](https://github.com/rx229/Tony_Portfolio/blob/main/Titanic/Titanic.ipynb). 
 
-**Project Steps**
 
-1. **Data Exploration**
+**Data Exploration**
 
 I began with some light data exploration using basic commands (.describe(), .info(), value counts) and to understand the nature of the data. There were quite a few null values in the data sets.
 I seperated the data into categorical and numerical.
@@ -39,18 +38,18 @@ Used a correlation matrix to observe correlations between features
 
 ![image3](Images/Correlation%20Matrix.png)
 
-2. **Exploratory Data Analysis**
+**Exploratory Data Analysis**
 
 I broke down several categorical features that had too many variables (Name, Cabin Number and Ticket Number) and tried to extract some meaningful data from the strings. For example I created the Title feature by extracting the title from the Name feature and compared surival rates.
 
 ![image4](Images/Feature.PNG)
 
-3. **Data Preprocessing**
+**Data Preprocessing**
 
 I had to drop two rows as it has null values in a catergorical feature (Embarked) and imputed missing nurmeric data (Age, Fare) by calculating the mean.
 I chose to encode data with OHE over pd.get_dummies as it gave differing number of features between test and training data. I didn't want to manually fix feature lengths. 
 
-4. **ML Modelling**
+**ML Modelling**
 
 I used the Random Forest Algorithm to produce the final output. My prediction was 79.9% accurate.
 
