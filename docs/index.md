@@ -37,13 +37,13 @@ Used histograms for categorical data, came out quite messy and skewed. Only able
 
 Used a correlation matrix to observe correlations between features
 
-![image](https://github.com/rx229/Tony_Portfolio/blob/main/Titanic/Images/Correlation Matrix.png)
+![image](https://github.com/rx229/Tony_Portfolio/blob/main/Titanic/Images/Correlation%20Matrix.png)
 
 2. **Exploratory Data Analysis**
 
 I broke down several categorical features that had too many variables (Name, Cabin Number and Ticket Number) and tried to extract some meaningful data from the strings. For example I created the Title feature by extracting the title from the Name feature and compared surival rates.
 
-![image](https://github.com/rx229/Tony_Portfolio/blob/main/Titanic/Images/Feature.png)
+![image](https://github.com/rx229/Tony_Portfolio/blob/main/Titanic/Images/Feature.PNG)
 
 3. **Data Preprocessing**
 
@@ -54,5 +54,5 @@ I chose to encode data with OHE over pd.get_dummies as it gave differing number 
 
 I used Random Forest Algorith to produce the final output.
 
-![image](https://github.com/rx229/Tony_Portfolio/blob/main/Titanic/Images/Results.png)
+![image](https://github.com/rx229/Tony_Portfolio/blob/main/Titanic/Images/Results.PNG)
 
