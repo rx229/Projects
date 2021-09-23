@@ -52,7 +52,7 @@ I chose to encode data with OHE over pd.get_dummies as it gave differing number 
 
 4. **ML Modelling**
 
-I used Random Forest Algorith to produce the final output.
+I used the Random Forest Algorithm to produce the final output.
 
 ![image](https://github.com/rx229/Tony_Portfolio/blob/main/Titanic/Images/Results.PNG)
 
