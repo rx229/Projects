@@ -59,6 +59,6 @@ I used the Random Forest Algorithm to produce the final output. My prediction wa
 
 Ranked in top 2%
 
-![image5](Images/top.PNG)
+![image6](Images/top.PNG)
 
 
