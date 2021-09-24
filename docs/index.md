@@ -1,5 +1,4 @@
 ### About
-=========
 
 This is the place where I record my projects and notes on Data Science and Machine Learning.  I will be using this page to keep track of my progress.
 
@@ -14,8 +13,6 @@ Data science is generally focused on solving 1 of 3 different problems:
 
 
 -------------------------
-
-*************************
 
 
 
@@ -59,4 +56,9 @@ I chose to encode data with OHE over pd.get_dummies as it gave differing number 
 I used the Random Forest Algorithm to produce the final output. My prediction was 79.9% accurate.
 
 ![image5](Images/Results.PNG)
+
+Ranked in top 2%
+
+![image5](Images/top.PNG)
+
 
