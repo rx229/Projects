@@ -1,6 +1,6 @@
-### Welcome to my portoflio
+### About
 
-I will be using this page to document my progress in machine learning and data science.
+This is the place where I record my projects and learning on Data Science. The key aspects of this is to motivate myself for self-learning and keep track of my progress. I'm aiming to update this page regularly.
 
 Data science is generally focused on solving 1 of 3 different problems:
 
@@ -10,6 +10,9 @@ Data science is generally focused on solving 1 of 3 different problems:
 
 **Unsupervised Learning:**
 -	Clustering: Finding patterns and groupings in unlabeled data
+
+
+-------------------------
 
 
 
