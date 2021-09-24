@@ -1,6 +1,6 @@
 ### About
 
-This is the place where I record my projects and learning on Data Science. The key aspects of this is to motivate myself for self-learning and keep track of my progress. I'm aiming to update this page regularly.
+This is the place where I record my projects and notes on Data Science and Machine Learning.  I will be using this page to keep track of my progress.
 
 Data science is generally focused on solving 1 of 3 different problems:
 
