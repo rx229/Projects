@@ -29,10 +29,10 @@ This was accomplished using Python in a [Jupyter Notebook](https://github.com/rx
 
 I began with some light data exploration using basic commands (.describe(), .info(), value counts) and to understand the nature of the data. There were quite a few null values in the data sets.
 I seperated the data into categorical and numerical.
-Used histograms for categorical data, came out quite messy and skewed. Only able to normalise one feature (Fare) with a log function.
+Used histograms for continous numerical data, Fare was very skewed. Normalised Fare with a log function.
 
 
-![image1](Images/skewed.png)
+![image1](Images/skewed2.png)
 
 ![image2](Images/normal.png)
 
@@ -48,7 +48,7 @@ I broke down several categorical features that had too many variables (Name, Cab
 
 **Data Preprocessing**
 
-I had to drop two rows as it has null values in a catergorical feature (Embarked) and imputed missing nurmeric data (Age, Fare) by calculating the mean.
+I dropped two rows as it has null values in a catergorical feature (Embarked) and imputed missing nurmeric data (Age, Fare) by calculating the mean.
 I chose to encode data with OHE over pd.get_dummies as it gave differing number of features between test and training data. I didn't want to manually fix feature lengths. 
 
 **ML Modelling**
