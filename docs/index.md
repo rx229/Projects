@@ -48,12 +48,15 @@ I broke down several categorical features that had too many variables (Name, Cab
 
 **Data Preprocessing**
 
-I dropped two rows as it has null values in a catergorical feature (Embarked) and imputed missing nurmeric data (Age, Fare) by calculating the mean.
+I dropped two rows as it has null values in a catergorical feature (Embarked) and imputed missing nurmeric data (Age, Fare) by calculating the mean, Fare by median as the distribution was skewed.
 I chose to encode data with OHE over pd.get_dummies as it gave differing number of features between test and training data. I didn't want to manually fix feature lengths. 
 
 **ML Modelling**
 
-I used the Random Forest Algorithm to produce the final output. My prediction was 79.9% accurate.
+I used Random Forest Classifier to produce the final output as it had the highest MAE score compared a few other algorithms.
+I used GridSearchCV to tune the parameters of the model and produced a slightly higer MAE score.
+
+My prediction was 79.9% accurate.
 
 ![image5](Images/Results.PNG)
 
