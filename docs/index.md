@@ -11,6 +11,8 @@ Data science is generally focused on solving 1 of 3 different problems:
 **Unsupervised Learning:**
 -	Clustering: Finding patterns and groupings in unlabeled data
 
+I have also added a section at the bottom for my **Data Visualisation** projects
+
 
 -------------------------
 
