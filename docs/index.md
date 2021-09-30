@@ -38,15 +38,9 @@ Used histograms for continous numerical data, Fare was very skewed. Normalised F
 
 ![image2](Images/normal.png)
 
-Used a correlation matrix to observe correlations between features
-
-![image3](Images/Correlation%20Matrix.png)
-
 **Exploratory Data Analysis**
 
 I broke down several categorical features that had too many variables (Name, Cabin Number and Ticket Number) and tried to extract some meaningful data from the strings. For example I created the Title feature by extracting the title from the Name feature and compared surival rates.
-
-![image4](Images/Feature.PNG)
 
 **Data Preprocessing**
 
