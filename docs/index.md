@@ -16,7 +16,7 @@ Data science is generally focused on solving 1 of 3 different problems:
 
 
 
-### Project 1 : [Titanic - Machine Learning from Disaster](https://github.com/rx229/Tony_Portfolio/tree/main/Titanic)
+### Classification : [Titanic - Machine Learning from Disaster](https://github.com/rx229/Tony_Portfolio/tree/main/Titanic)
 
 *"Use the Titanic passenger data (name, age, price of ticket, etc) to try to predict who will survive and who will die"* - [Kaggle](https://www.kaggle.com/c/titanic)
 
@@ -65,3 +65,10 @@ Ranked in top 2%
 ![image6](Images/top.PNG)
 
 
+-------------------------
+
+### Data Visualisation Projects : 
+
+[Tableau - Demographics of the Australian population](https://github.com/rx229/Tony_Portfolio/blob/main/Data%20Visualisation/Visualisation_of_Australian_Demographic_Data.twbx)
+
+*"Get an understanding of the demographics of members of the Australian population born in certain countries over the past 30 years (1996-2016)."* 
