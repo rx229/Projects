@@ -72,3 +72,7 @@ Ranked in top 2%
 [Tableau - Demographics of the Australian population](https://github.com/rx229/Tony_Portfolio/blob/main/Data%20Visualisation/Visualisation_of_Australian_Demographic_Data.twbx)
 
 *"Get an understanding of the demographics of members of the Australian population born in certain countries over the past 30 years (1996-2016)."* 
+
+Incoporated both a dashboard and a story board analysing the aging of foreign born populations across 20 years.
+
+![image7](Images/Dash.PNG)
