@@ -50,7 +50,7 @@ I chose to encode data with OHE over pd.get_dummies as it gave differing number 
 **ML Modelling**
 
 I used Random Forest Classifier to produce the final output as it had the highest MAE score compared a few other algorithms.
-I used GridSearchCV to tune the parameters of the model and produced a slightly higer MAE score.
+I used GridSearchCV to tune the parameters of the model and produced a slightly higher MAE score.
 
 My prediction was 79.9% accurate.
 
