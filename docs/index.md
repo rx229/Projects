@@ -65,7 +65,7 @@ Ranked in top 2%
 
 ### Clustering Classification : [KPMG Data Analytics Internship - Sprocket Central Pty Ltd](https://github.com/rx229/Tony_Portfolio/tree/main/KPMG%20Virtual%20Internship)
 
-*"Use the Sprocket's data to try to predict which new customers will be the most will valuable"* - [Kaggle](https://www.kaggle.com/c/titanic)
+*"Use the Sprocket's data to try to predict which new customers will be the most will valuable"* - [Forage](https://www.theforage.com/virtual-internships/theme/m7W4GMqeT3bh9Nb2c/KPMG-Data-Analytics-Virtual-Internship?ref=xbNanDPJMJmAahRrY)
 
 My second project is the KPMG Data Analytics Internship, where I have decided to apply clustering and classification to predict which customers are the most valuable.
 
