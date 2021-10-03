@@ -63,6 +63,56 @@ Ranked in top 2%
 
 -------------------------
 
+### Clustering Classification : [KPMG Data Analytics Internship - Sprocket Central Pty Ltd](https://github.com/rx229/Tony_Portfolio/tree/main/KPMG%20Virtual%20Internship)
+
+*"Use the Sprocket's data to try to predict which new customers will be the most will valuable"* - [Kaggle](https://www.kaggle.com/c/titanic)
+
+My second project is the KPMG Data Analytics Internship, where I have decided to apply clustering and classification to predict which customers are the most valuable.
+
+This was accomplished using Python in a [Jupyter Notebook](https://github.com/rx229/Tony_Portfolio/blob/main/KPMG%20Virtual%20Internship/Sprocket%20Central%20Pty%20Ltd%20-%20Predict.ipynb). 
+
+**Data Quality Assessment**
+
+Drafted an [email](https://github.com/rx229/Tony_Portfolio/blob/main/KPMG%20Virtual%20Internship/Sprocket%20Central%20Pty%20Ltd%20-%20Data%20Quality%20Assessment.msg) to the client identifying the data quality issues and strategies to mitigate these issues.
+
+**Introduction**
+
+RFM segmentation is a long-standing marketing analysis method used to quantitatively group customers based on 3 metrics (recency, frequency and monetary), from 
+
+I will be using RFM analysis and machine learning to identify the most valuable customers.
+
+**Data Exploration**
+
+We begin by separating the data set in to training and test sets. CustomerDemographic and CustomerAddress are merged with Transactions details to form the training set and NewCustomerList will be our test set for identifying the most valuable customers
+
+Continuous numerical features with missing values can be imputed. Age and tenure both have a low number of missing values and generally uniform distributions and can be imputed with the means of both features
+
+All customers without transaction details will have to be dropped from the model, as we cannot calculate RFM metrics without them – 508 customers dropped from training set
+
+![image1](Images/tenure.png)
+
+**Feature Engineering**
+
+I will be engineering the features recency, frequency and monetary for RFM Analysis. All three features will be scaled 0-1 so to compare different variables on equal footing.
+
+Recency will be the mean of the number of days since the customer’s last purchase
+
+Frequency will be the bike related purchases from the customer in the last 3 years
+
+Monetary will the average profit per customer, calculated by the difference of list price and standard cost under Transactions	
+
+I will use k-means clustering to group customers by their RFM metrics. The optimal number of clusters is determined to be 5.
+
+![image1](Images/cluster.png)
+
+**ML Modelling**
+
+I used Random Forest Classifier to produce the [final output](https://github.com/rx229/Tony_Portfolio/blob/main/KPMG%20Virtual%20Internship/submission.csv)
+
+
+-------------------------
+
+
 ### Data Visualisation Projects : 
 
 #### [1. Tableau - Demographics of the Australian population](https://github.com/rx229/Tony_Portfolio/blob/main/Data%20Visualisation/Visualisation_of_Australian_Demographic_Data.twbx)
