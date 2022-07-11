@@ -1,2 +1,2 @@
 # Tony's Portfolio
-Portfolio for side projects and learning activities.
+Welcome to my portfolio of data analytics projects and learning activities.
