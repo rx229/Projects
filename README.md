@@ -1,2 +1,2 @@
 # Tony's Portfolio
-Welcome to my portfolio of data analytics projects and learning activities.
+This portfolio is a showcase of my data analytics projects and learning activities.
